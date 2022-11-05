@@ -4,18 +4,35 @@ body {
 }
 
 .assignment {
-    display:flexbox;
+    display:flex;
     padding:10px;
-    margin:10px;
+    margin:20px;
     background:darkgrey ;
+    border-radius: 5px;
+    border: 8px dashed whitesmoke;
 }
 
 .assignment img {
     scale:97%;
-    padding:10px;
+    margin: 20px;
+    border: 8px solid white;
+    border-radius: 5px
+}
+
+.assignment img:hover {
+    border: 8px dashed darkslategrey;
 }
 
 h1 {
     color: darkslategrey;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:darkslategrey;
 }
