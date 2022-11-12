@@ -3,8 +3,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.assignments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .assignment {
-    display:flex;
+    width: 27.5%;
     padding:10px;
     margin:20px;
     background:darkgrey ;
@@ -14,13 +19,23 @@ body {
 
 .assignment img {
     scale:97%;
-    margin: 20px;
+    margin: 10px;
     border: 8px solid white;
     border-radius: 5px
 }
 
 .assignment img:hover {
     border: 8px dashed darkslategrey;
+}
+
+h2 {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+h2:hover {
+    color:darkslategrey;
 }
 
 h1 {
