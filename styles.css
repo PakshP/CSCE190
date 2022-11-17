@@ -9,9 +9,9 @@ body {
 }
 
 .assignment {
-    width: 27%;
-    padding:10px;
-    margin:20px;
+    width: 425px;
+    padding: 10px;
+    margin: 20px;
     background:darkgrey ;
     border-radius: 5px;
     border: 8px dashed whitesmoke;
